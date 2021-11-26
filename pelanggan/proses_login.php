@@ -13,6 +13,7 @@
             session_start();
             $_SESSION['id_pelanggan'] = $data_login['id_pelanggan'];
             $_SESSION['nama'] = $data_login['nama'];
+            $_SESSION['id_petugas'] = $data_login['id_petugas'];
             $_SESSION['status_login'] = true;
             echo "<script>alert('Login Berhasil');location.href='home.php';</script>";
         } else {
